@@ -1,0 +1,1482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.slider .rightparttext {
+    padding-top: 8px;
+}
+.overlat h3 {
+    color: #68af9e;
+}
+.alluretxt .bannerbtn a{
+    text-transform: capitalize;
+}
+.searchbox{
+    display: none;
+}
+input.form-control,
+.btn.btn-secondary {
+    border-radius: 0px!important;
+}
+.searchbox input::placeholder{
+    font-size: 13px;
+}
+
+li.nav-item{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* font-family: 'Playfair Display', serif; */
+
+.searchboxcover.mystyle{
+    display: block!important;
+}
+.searchboxcover{
+    display: none!important;
+}
+img{
+    width: 100%;
+}
+
+.navbar-nav{
+    align-items: baseline;
+}
+li.nav-item.search {
+    font-size: 15px;
+}
+
+
+.navbar{
+    padding: .5rem 2rem;
+}
+
+
+
+li.nav-item.shoping {
+    font-size: 27px;
+}
+li.nav-item{
+font-size: 13px;
+
+font-weight: 800;
+text-transform: uppercase;
+}
+a.nav-link {
+    margin: 0px 6px;
+    color: #7d7e80;
+    
+}
+
+
+/* banner */
+
+.banner-top{
+    background: url("../images/backbanner.jpg");
+    background-size: cover;
+    min-height: 984px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 48px;
+}
+.bannrtxt {
+    /* background-image: url(../images/bannerinner.png); */
+ 
+    position: absolute;
+   
+    left: 50%;
+  
+    top: 0%;
+   
+    transform: translate(-50%, 50%);
+}
+.bannrtxt h1 {
+    position: absolute;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    left: 50%;
+    line-height: .8;
+    z-index: 0!important;
+    top: 68%;
+    font-size: 130px;
+    font-family: 'Raleway';
+    transform: translate(-50%, -50%);
+}
+.bannrtxt img {
+    width: 620px;
+}
+
+.bannerbtn a,
+.wwshipinnertxt h3 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: #929293;
+    padding: 20px 60px;
+    border: 1px solid #e2e2e2;
+}
+.wwshipinnertxt h3{
+    border: 0px ;
+    color: #636363;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 0px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/* saleup */
+
+
+.saleup,
+.allure {
+    background: url(../images/banner2.jpg);
+    min-height: 610px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.allure{
+    background: url(../images/banner3.jpg);
+    min-height: 685px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.saleuptxt {
+    text-align: center;
+    width: 50%;
+}
+.saleuptxt p{
+font-size: 18px;
+font-weight: 400;
+font-family: 'Raleway';
+color: #848283;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.bannerbtn {
+    padding: 60px 0px;
+    
+}
+.saleuptxt h3,
+.saleuptxt span{
+    color: #303030;
+    font-weight: 300;
+    font-size: 72px;
+    font-family: 'Raleway';
+    padding: 10px 0px;
+}
+.saleuptxt span{
+    color: #7a4a4b;
+}
+.saleuptxt .bannerbtn a,
+.wwshipinnertxt p {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: white;
+   background: #303030;
+   text-transform: uppercase;
+}
+.wwshipinnertxt p {
+    color: #777777;
+    
+    background: transparent;
+    text-transform: capitalize;
+    line-height: 1.8;
+    text-align: center;
+}
+.wwshipinnerimg img {
+    width: 65px;
+    margin: auto;
+}
+
+.wwshipinnerimg {
+    width: 122px;
+    height: 122px;
+    background: #7a4a4b;
+    border-radius: 50%;
+    margin: 0px auto 50px auto;
+    display: flex;
+}
+
+
+.worldwideship {
+    padding: 85px 0px;
+}
+.shopbycollectiontxt.text-center span img {
+    width: 20px;
+}
+.shopbyinnerimg{
+    position: relative;
+   
+    width: 25%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .whitelacetext h3{
+    font-size: 25px;
+} */
+
+.shopbyinnerimg::after {
+    background: rgba(255,182,193,0.7);
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+.shopbyinnerimg:hover.shopbyinnerimg:after,
+.shopbyinnerimg:hover .overlaytxt{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.overlaytxt h3,
+.shopbycollectiontxt h2,
+.lefthead h3,
+.whitelacetext h3{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+
+}
+.lefthead {
+    padding-bottom: 30px;
+}
+.whitelacetext h3{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.shopbycollectiontxt h2,
+.lefthead h3{
+    color: #000;
+    text-transform: capitalize;
+}
+.overlaytxt {
+    position: absolute;
+ 
+    z-index: 2;
+    text-align: center;
+    opacity: 0;
+}
+.overlaytxt p,
+.rightparttext p ,
+.whitelacetext p {
+    font-family: 'raleway';
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 40px 0px;
+}
+.whitelacetext p {
+    padding: 10px 0px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.rightparttext p {
+    color: #787878;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.overlaytxt .bannerbtn a {
+font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: white;
+    padding: 11px 40px;
+    border: 1px solid #e2e2e2;
+}
+.overlaytxt span {
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+.shopbycollectiontxt span {
+    padding-top: 20px;
+    display: block;
+}
+
+.besthead{
+    width: 32%;
+}
+.checked {
+    color: orange;
+    font-size: 12px;
+    
+  }
+  
+
+  .addcart .bannerbtn a {
+    padding: 7px 20px;
+    font-size: 10px;
+}
+.addcart .bannerbtn {
+    padding: 20px 0px 0px;
+}
+.rightparttext h3 {
+    font-size: 18px;
+    color: #7a4a4b;
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.whitelaceimg{
+    position: relative;
+}
+.whitelaceimg::after {
+    background: rgb(0,0,0,0.7);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+.whitelacetext {
+    position: absolute;
+   
+    
+}
+
+.alluretxt h3 {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+
+}
+
+.alluretxt p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 7px;
+    padding: 12px 0px;
+}
+
+.alluretxt .bannerbtn a{
+    
+    color: white;
+    padding: 10px 40px;
+    border: 1px solid #e2e2e2;
+    background: #000;
+}
+.alluretxt {
+    padding-right: 200px;
+}
+.Phototxt h3{
+font-size: 18px;
+font-family: 'Playfair Display', serif;
+color: #8f8083;
+}
+.july h3,
+.mixmatch h3,
+.latesttxtpara p{
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+color: #515151;
+font-weight: 600;
+}
+.mixmatch h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #484848;
+    padding: 10px 0px;
+}
+.Photography {
+    padding: 8px 0px;
+}
+.readmore .bannerbtn a {
+    
+    padding: 10px 30px;
+   
+}
+.readmore .bannerbtn{
+    padding: 40px 0px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 40px;
+    height: 5px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #7a4a4b;
+}
+.logoslider .owl-nav,
+.slider .owl-nav {
+    display: none;
+}
+.owl-dots {
+    
+    padding-top: 80px;
+}
+.slider .owl-dots {
+    padding-top: 40px;
+}
+.halfsliderowl .owl-dots{
+    display: none;
+}
+.halfsliderowl .owl-nav {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-icons i {
+    position: absolute;
+    right: 25px;
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-icons {
+    width: 100%;
+    
+    position: relative;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+   
+    background: transparent;
+    border: 1px solid white;
+}
+::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+.signuptxt,
+.telegram {
+    width: 50%;
+}
+ .signuptxt h3{
+     font-size: 24px;
+     color: white;
+     font-family: 'Playfair Display', serif;
+     font-style: italic;
+ }
+ .signup {
+    padding: 30px 0px;
+    background: #7a4a4b;
+}
+.logofoot img {
+    width: 150px;
+}
+.medialink ul li {
+    display: flex;
+    padding: 14px 0px;
+    align-items: center;
+}
+.mediaicon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #515151;
+    line-height: 50px;
+    font-size: 15px;
+    color: #515151;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    /* width: 15%; */
+}
+.footerinner{
+    background: #141414;
+}
+.addredd p{
+    color: #515151;
+}
+.addredd {
+    width: 60%;
+}
+.footerlogo{
+    width: 30%;
+}
+.footerlink h3,
+.footerlink ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+.footerlink ul li a {
+    color: #515151;
+    text-transform: capitalize;
+}
+.footerlink.text-uppercase {
+    width: 17.5%;
+}
+.footercover.d-flex {
+    padding: 60px 0px 0px;
+}
+.footerlink.text-uppercase h3 {
+    padding-bottom: 30px;
+}
+.footerlink h3 {
+    position: relative;
+    display:inline-block;
+}
+.footerlink h3::after {
+    position: absolute;
+    content: "";
+    background: #515151;
+    width: 100%;
+    height: 2px;
+    top: 30px;
+    left: 0px;
+}
+.visaimg ul li {
+    margin-right: 15px;
+}
+.visaimg {
+    padding: 20px 0px;
+}
+.copyleft h3{
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #515151;
+
+}
+.footerlower {
+    padding-bottom: 40px;
+}
+.mediaicon:hover.mediaicon i{
+color: white;
+
+}
+.mediaicon:hover{
+background: #7a4a4b;
+}
+
+.halfsliderowl{
+    width: 40%;
+}
+.halfright{
+    width: 60%;
+}
+
+.halfsliderowl .item{
+    position: relative;
+}
+.overlat {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-40%, -50%);
+}
+.overlat h3,
+.overlat h4,
+.overlat span{
+    font-size: 88.7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    line-height: 75px;
+
+}
+.overlat h4{
+font-size: 75px;
+}
+.overlat span{
+    font-size: 15px;
+}
+.freed a {
+    color: white;
+    text-transform: uppercase;
+    padding: 6px;
+    border: 4px solid white;
+}
+.bredmed {
+    width: 57%;
+    margin: 0px 15px 15px 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.men{
+    width: 38%;
+    margin: 0px 0px 15px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+.bredmed img,
+.men img {
+    height: 277.9px;
+    object-fit: cover;
+}
+ .brideal h3{
+     font-size: 15px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+     color: white;
+     text-transform: uppercase;
+    letter-spacing: 4px;
+    
+ }
+ .brideal.text-center {
+    position: absolute;
+}
+ 
+ .brideal p{
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 5px 0px;
+ }
+ .brideal{
+     z-index: 1;
+ }
+ .bredmed::after,
+ .men::after{
+position: absolute;
+content: "";
+width: 100%;
+height: 100%;
+background: rgb(0,0,0,0.7);
+z-index: 0;
+ }
+ .shopbycollectiontxt {
+    padding-bottom: 60px;
+}
+.signuptop{
+    padding-top: 60px;
+}
+.leftpartimg {
+    display: flex;
+}
+.search{
+    position: relative;
+}
+.searchbox{
+    position: absolute;
+}
+.searchbox {
+    position: absolute;
+    width: 250px;
+    right: 0px;
+}
+.alluretxt .bannerbtn a:hover,
+.saleuptxt .bannerbtn a:hover {
+   
+    color: black;
+    background: white;
+    transition: all 0.5s;
+}
+
+.readmore .bannerbtn a:hover,
+.addcart .bannerbtn a:hover,
+.freed a:hover,
+.bannrtxt .bannerbtn a:hover {
+    background: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.halfsliderowl .item:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.7);
+    top: 0px;
+}
+.overlat{
+    z-index: 99;
+}
+.whitelace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alluretxt{
+    padding-right: 0px;
+}
+/* hover */
+a.nav-link:hover,
+.footerlink ul li a:hover{
+    color: #6cae9d;
+    transition: all 0.5s;
+}
+.searchbox button{
+background: #7d7e80;
+}
+.dropdown-menu {
+   
+  
+    font-size: 8px;
+    color: #7d7e80;
+    padding: 0px 0px;
+     border-radius: 0rem;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #bae8d4;
+}
+.dropdown-item {
+   
+    font-weight: 600;
+    color: #ffffff;
+   
+    background-color: #68af9e;
+   
+}
+
+
+.fixedHeader{
+	top: 0;
+}
+.nav_head.fixedHeader ul li a {
+    color: #000;
+}
+.nav_head.fixedHeader form button {
+    color: white;
+    background-color: orange;
+}
+.fixedHeader {
+    position: fixed;
+    padding: 5px 30px;
+  
+    
+    
+    animation-name: animationFade;
+   
+    
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 8px -1px rgba(0, 0, 0, .2);
+    z-index: 999;
+    width: 100%;
+    background: #fff;
+}
+.fixedHeader nav.navbar {
+    padding: 0px 38px;
+}
+@-webkit-keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fixedHeader .searchbox {
+    position: absolute;
+    width: 250px;
+    right: 0px;
+    top: 53px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .overlaytxt h3 {
+        font-size: 20px;
+    }
+    .overlaytxt p{
+        padding: 25px 0px;
+    }
+    .overlaytxt .bannerbtn a {
+        font-size: 11px;
+     
+        padding: 10px 30px;
+        
+    }
+   .overlaytxt .bannerbtn {
+        padding: 40px 0px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .freed a {
+       
+        padding: 8px;
+        border: 2px solid white;
+        font-size: 12px;
+    }
+    .saleuptxt h3, .saleuptxt span,
+    .alluretxt h3 {
+       
+        font-size: 52px;
+       
+        padding: 0px 0px;
+    }
+    .bannerbtn {
+        padding: 30px 0px;
+    }
+    .bannerbtn a{
+    padding: 12px 40px;
+    }
+    .saleup, .allure{
+        min-height: 400px;
+    }
+    .saleuptxt{
+        width: 100%;
+    }
+    .shopbyinnerimg {
+       
+        width: 50%;
+    }
+    .rightparttext p {
+      
+        font-size: 10px;
+    }
+    .rightparttext h3 {
+        font-size: 13px;
+       
+        padding: 4px 0px;
+    }
+    .addcart .bannerbtn {
+        padding: 11px 0px 0px;
+    }
+    .addcart .bannerbtn a {
+        
+        font-size: 8px;
+    }
+    .overlat h3, .overlat h4{
+        font-size: 70px;
+        
+    }
+    .bredmed {
+        width: 56%;
+    }
+    .bredmed img, .men img {
+        height: 230.9px;
+        object-fit: cover;
+    }
+    .halfsliderowl .owl-nav
+     {
+       
+        bottom: 10%;
+        
+    }
+    .bannrtxt img {
+        width: 460px;
+    }
+    .bannrtxt h1 {
+       
+        left: 47%;
+        
+        top: 71%;
+        font-size: 90px;
+       
+    }
+    a.nav-link {
+        margin: 0px 0px;
+        
+    }
+    li.nav-item {
+        font-size: 11px;
+       
+    }
+    li.nav-item.shoping,
+    li.nav-item.search {
+        font-size: 20px;
+    }
+    .banner-top {
+       
+        min-height: 665px;
+    }
+    .footerlogo {
+        width: 100%;
+    }
+    
+    .medialink ul {
+        display: flex;
+    }
+    .visaimg {
+        padding: 5px 0px;
+    }
+    .visaimg ul {
+       justify-content: center;
+    }
+    .footerlink.text-uppercase {
+        width: 25%;
+        text-align: center;
+    }
+    .worldwideship {
+        padding: 30px 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+  .men {
+    width: 36%;
+  }
+  .wwshipinnerimg img {
+    width: 50px;
+    margin: auto;
+}
+.wwshipinnerimg {
+    width: 90px;
+    height: 90px;
+}
+  .signuptop {
+    padding-top: 25px;
+}
+  .shopbycollectiontxt {
+    padding-bottom: 20px;
+}
+.owl-dots {
+    padding-top: 40px;
+}
+  .banner-top {
+    min-height: 550px;
+}
+  .bannrtxt h1 {
+    
+    font-size: 60px;
+}
+a.navbar-brand {
+    width: 130px;
+}
+.bannerbtn a {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: #929293;
+    padding: 11px 29px;
+    border: 1px solid #e2e2e2;
+}
+.bannrtxt img {
+    width: 350px;
+}
+  .overlat h3, .overlat h4{
+    font-size: 50px;
+  }
+  .overlat span {
+    font-size: 12px;
+}
+.freed a {
+    padding: 5px;
+    border: 1px solid white;
+    font-size: 10px;
+}
+.brideal h3,
+.brideal p
+ {
+    font-size: 12px;
+}
+  .overlat h3, .overlat h4, .overlat span {
+    
+    line-height: 50px
+}
+.bredmed img, .men img {
+    height: 169.9px;
+    
+}
+.whitelacetext h3 {
+    
+    font-size: 22px;
+}
+.whitelacetext p {
+    padding: 6px 0px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    
+}
+.wwshipinnerimg {
+   
+    margin: 0px auto 25px auto;
+   
+}
+.wwshipinner {
+    padding-bottom: 20px;
+}
+.shopbycollectiontxt h2,
+.lefthead h3{
+    font-size: 25px;
+}
+.shopbycollectiontxt span {
+    padding-top: 5px;
+    
+}
+.lefthead {
+    padding-bottom: 15px;
+}
+.shopbycollectiontxt.text-center span img {
+    width: 15px;
+}
+nav.navbar.navbar-expand-lg {
+    background: beige;
+    z-index: 99;
+}
+.searchbox {
+    position: absolute;
+    width: 250px;
+    left: 0px;
+    bottom: 0px;
+}
+li.nav-item{
+    width: 100%;
+}
+li.nav-item:hover{
+    background: #7a4a4b;
+}
+.navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nav-item.shoping:hover,
+.nav-item.search:hover{
+    background: none;
+}
+.rightparttext p,
+.rightparttext h3,
+.star{
+    text-align: center;
+}
+.Phototxt h3 {
+    font-size: 15px;
+}
+.july h3, .latesttxtpara p {
+    font-size: 10px;
+    
+}
+.mixmatch h3{
+    font-size: 13px;
+}
+.readmore .bannerbtn {
+    padding: 12px 0px;
+}
+  }
+@media only screen and (max-width: 767px) {
+
+    .bredmed {
+   
+        margin: 0px 8px 8px 8px;
+        width: 58%;
+    }
+    .footerlink.text-uppercase {
+        width: 50%;
+        
+    }
+    .medialink ul {
+      
+        flex-direction: column;
+    }
+    .visaimg ul {
+        flex-direction: row;
+    }
+    .addredd p {
+        color: #515151;
+        font-size: 12px;
+    }
+    .medialink ul li {
+      
+        padding: 5px 0px;
+      
+    }
+    .shopbycollectiontxt h2,
+    .lefthead h3
+     {
+        font-size: 20px;
+    }
+    .shopbycollectiontxt.text-center span img {
+        width: 10px;
+    }
+    .copyright {
+        flex-direction: column;
+    }
+    .copyleft {
+        padding: 15px;
+    }
+    .shopbyinnerimg{
+        width: 100%;
+    }
+    .signupinner {
+        flex-direction: column;
+    }
+    .saleuptxt p,
+    .alluretxt p {
+        font-size: 14px;
+    }
+    .saleuptxt h3, .saleuptxt span,
+    .alluretxt h3 {
+        font-size: 40px;
+        
+    }
+    .signuptxt, .telegram {
+        width: 100%;
+    }
+    .signuptxt h3 {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .signuptxt h3 {
+        font-size: 20px;
+    }
+    .saleup, .allure {
+        min-height: 301px;
+    }
+    .bannerbtn {
+        padding: 20px 0px;
+    }
+    .banner-top {
+        min-height: 400px;
+    }
+    .bannrtxt h1 {
+    
+        font-size: 50px;
+    }
+    .bannrtxt img {
+        width: 280px;
+    }
+    .whitelacetext h3 {
+        font-size: 12px;
+    }
+    .whitelacetext p {
+        padding: 3px 0px;
+        letter-spacing: 1px;
+        font-size: 9px;
+    }
+.men{
+    margin: 0px 0px 8px 0px;
+    
+        
+   
+}
+.brideal h3, .brideal p {
+    font-size: 8px;
+}
+.bredmed img, .men img {
+    height: 126.9px;
+}
+.overlat h3, .overlat h4, .overlat span {
+    line-height: 28px;
+}
+.overlat h3, .overlat h4 {
+    font-size: 31px;
+}
+.overlat span {
+    font-size: 9px;
+}
+.freed a {
+    padding: 3px;
+    
+    font-size: 7px;
+}
+.bannerbtn {
+    padding: 30px 0px;
+}
+.slider .owl-dots {
+    padding-top: 10px;
+}
+.portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    z-index: 1;
+    width: 280px;
+    height: 200px;
+    margin: auto;
+}
+.portfolio .portfolio-wrap:hover .portfolio-links {
+   
+    top: calc(100% - 16px)!important;
+}
+.alluretxt .bannerbtn {
+    padding: 13px 0px!important;
+}
+.shopbyinner.d-flex.flex-wrap {
+    width: 50%;
+    margin: auto;
+}
+}
+
+@media only screen and (max-width: 576px) {
+    .bannrtxt img {
+        width: 210px;
+    }
+    .shopbyinner.d-flex.flex-wrap {
+        width: 60%;
+        margin: auto;
+    }
+    .mixmatch h3 {
+        
+        padding: 5px 0px;
+    }
+    .overlaytxt .bannerbtn a {
+        font-size: 11px;
+        padding: 5px 20px;
+    }
+    .overlaytxt p {
+        padding: 20px 0px;
+    }
+    .overlaytxt h3 {
+        font-size: 15px;
+    }
+    .overlaytxt .bannerbtn {
+        padding: 0px 0px;
+    }
+    .readmore .bannerbtn a {
+        padding: 6px 15px;
+    }
+    .visaimg ul li {
+        margin-right: 0px; 
+    }
+    .footerlink.text-uppercase h3 {
+        padding-bottom: 5px;
+    }
+    .footerlink h3::after {
+      
+        height: 1px;
+        top: 20px;
+      
+    }
+    .footerlink.text-uppercase {
+       
+        margin-bottom: 10px;
+    }
+    .signuptxt h3 {
+        font-size: 15px;
+    }
+    .whitelaceimg {
+       
+        margin-bottom: 5px;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    .footercover.d-flex {
+        padding: 20px 0px 0px;
+    }
+    .visaimg ul li a {
+        text-align: center;
+    }
+    .latestbloginner {
+        width: 60%;
+        margin: auto;
+    }
+    .bannerbtn a{
+        font-size: 9px;
+    }
+    .Photography {
+        padding: 4px 0px;
+    }
+    .worldwideship {
+        padding: 15px 0px;
+    }
+    .alluretxt p {
+       
+        font-size: 12px;
+        
+        padding: 5px 0px;
+    }
+    .alluretxt .bannerbtn {
+        padding: 5px 0px!important;
+    }
+    .alluretxt h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .portfolio .portfolio-wrap {
+        transition: 0.3s;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        z-index: 1;
+        width: 280px;
+        height: 200px;
+        margin: auto;
+    }
+    .allure {
+        min-height: 225px;
+        background-position: 73%, 99%;
+    }
+    .lefthead h3 {
+        font-size: 17px;
+    }
+    .bannrtxt{
+        top: 16%;
+    }
+    .owl-theme .owl-nav [class*=owl-] {
+       
+        padding: 1px 3px;
+    }
+    .wwshipinnerimg {
+        width: 80px;
+        height: 80px;
+    }
+    .lefthead.one {
+        display: none;
+    }
+    .wwshipinnerimg img {
+        width: 40px;
+        
+    }
+    .bannrtxt h1 {
+        font-size: 34px;
+    }
+    .bannerbtn a, .wwshipinnertxt h3 {
+        font-size: 11px;
+        padding: 6px 9px;
+    }
+    .saleuptxt .bannerbtn a, .wwshipinnertxt p {
+        font-size: 10px;
+     
+    }
+    .addcart .bannerbtn {
+        padding: 11px 0px 15px;
+    }
+    .wwshipinnerimg {
+        margin: 0px auto 5px auto;
+    }
+    .shopbycollectiontxt {
+        padding-bottom: 10px;
+    }
+    .portfolio #portfolio-flters {
+       
+        margin: 0 0 0px 0!important;
+       
+      }
+
+    .footerlogo {
+        width: 100%;
+    }
+    .medialink ul li,
+    .visaimg ul {
+       
+        justify-content: center;
+    }
+    .addredd p {
+      
+        font-size: 13px;
+    }
+    .mediaicon {
+        width: 30px;
+        height: 30px;
+       
+        line-height: 30px;
+    }
+    .mediaicon {
+        width: 30px;
+        height: 30px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .visaimg ul li img {
+        width: 60%;
+    }
+    .visaimg {
+        padding: 0px 0px;
+    }
+    .portfolio #portfolio-flters li {
+       
+        font-size: 12px!important;
+        margin: 0 1px 15px 0!important;
+    }
+    .shopbycollectiontxt span,
+    .shopbycollectiontxt {
+       
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .slider .item {
+        height: 300px!important;
+    }
+    .halfsliderowl {
+        width: 83%;
+        margin: auto;
+    }
+    .halfright{
+        width: 100%;
+    }
+    .halfsliderowl {
+        width: 83%;
+        margin: 8px auto;
+    }
+    .halfsliderowl .item{
+        height: 300px;
+    }
+    .bannerbtn {
+        padding: 15px 0px;
+    }
+    .saleuptxt h3 {
+       font-size: 28px;
+    }
+    .saleuptxt p  {
+        font-size: 13px;
+    }
+    .saleup, .allure {
+        min-height: 220px;
+    }
+    .alluretxt .bannerbtn a {
+       
+        padding: 6px 20px;
+      
+    }
+    .copyleft h3 {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .overlaytxt h3 {
+        font-size: 12px;
+    }
+    .overlaytxt p {
+        padding: 13px 0px;
+        font-size: 11px;
+    }
+    .overlaytxt .bannerbtn a {
+        font-size: 9px;
+        padding: 3px 18px;
+    }
+}
+
+/* .whitelaceimg {
+    width: 70%;
+   
+    margin: 2px auto;
+} */
